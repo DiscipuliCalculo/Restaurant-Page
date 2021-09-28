@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "The Odin Project Restaurant Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiscipuliCalculo/Restaurant-Page.git"
+  },
+  "author": "Vitam Discipuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiscipuliCalculo/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/DiscipuliCalculo/Restaurant-Page#readme",
+  "dependencies": {
+    "save-dev": "0.0.1-security",
+    "webpack": "^5.55.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
