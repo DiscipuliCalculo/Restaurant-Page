@@ -1,17 +1,6 @@
-const pageContent = document.getElementById('content')
-const newDiv = document.createElement("div");
-const h1 = document.createElement('h1');
-const newSpan = document.createElement('span')
-const span2 = document.createElement('span');
-const h1Text = document.createTextNode(`Bill's Burger Bar`)
+const homeContent = `
+<h1>Bill's Burger Bar</h1>
+<img src=./images/underlay1.jpg>
+`
 
-h1.appendChild(h1Text)
-
-document.getElementById('content').appendChild(newDiv);
-pageContent.lastChild.id = 'navbar';
-document.getElementById('navbar').appendChild(newSpan);
-document.getElementById('navbar').lastChild.textContent = 'Menu';
-document.getElementById('navbar').lastChild.id = 'menu-tab';
-
-document.getElementById('navbar').appendChild(span2);
-document.getElementById('content').appendChild(h1);
+export { homeContent };
