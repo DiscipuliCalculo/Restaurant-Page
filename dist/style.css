@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+#content {
+    background-color: red;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+    width: 60vw;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+
+#navbar {
+    background-color: rgb(170, 160, 20);
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 60vw;
+}

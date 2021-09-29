@@ -1,1 +1,1 @@
-console.log("loaded");
+(()=>{console.log("loaded");const e=document.getElementById("content"),t=document.createElement("div"),n=document.createElement("h1"),d=document.createElement("span"),a=document.createElement("span"),l=document.createTextNode("Bill's Burger Bar");n.appendChild(l),document.getElementById("content").appendChild(t),e.lastChild.id="navbar",document.getElementById("navbar").appendChild(d),document.getElementById("navbar").lastChild.textContent="Menu",document.getElementById("navbar").appendChild(a),document.getElementById("content").appendChild(n)})();
